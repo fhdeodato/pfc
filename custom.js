@@ -3,4 +3,7 @@ setTimeout(()=>{
    if(document.getElementById("endChatItem")){
       document.getElementById("endChatItem").click();
    }
-}, 300);
+   setTimeout(()=>{
+      document.getElementById("endChatConfirm").click();
+   }, 200);
+}, 200);
