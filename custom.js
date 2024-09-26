@@ -4,6 +4,8 @@ setTimeout(()=>{
       document.getElementById("endChatItem").click();
    }
    setTimeout(()=>{
-      document.getElementById("endChatConfirm").click();
+      if(document.getElementById("endChatConfirm")){
+         document.getElementById("endChatConfirm").click();
+      }
    }, 200);
 }, 200);
